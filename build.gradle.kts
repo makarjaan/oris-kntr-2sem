@@ -29,6 +29,7 @@ dependencies {
     implementation("org.postgresql:postgresql:$postgresVersion")
     implementation("javax.mail:javax.mail-api:1.6.2")
     implementation("com.fasterxml.jackson.core:jackson-databind:2.18.3")
+    implementation("org.springframework.boot:spring-boot-starter-thymeleaf")
     implementation("org.springframework.security:spring-security-taglibs:$springSecurityVersion")
     implementation("org.apache.tomcat:tomcat-jsp-api:10.1.20")
     implementation ("org.projectlombok:lombok:1.18.30")
